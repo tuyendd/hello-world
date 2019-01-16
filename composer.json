@@ -1,7 +1,7 @@
 {
     "name": "tuyendd/hello-world",
     "type": "php",
-	"license": "aaa",
+	"license": "",
     "authors": [
         {
             "name": "TuyenDD",
@@ -12,6 +12,12 @@
     "require": {
         "php": ">=5.3.0",
     },
+	"repositories": [
+        {
+          "type": "vcs",
+          "url":  "git@github.com:tuyendd/hello-world.git"
+        }
+      ],
     "autoload": {
         "psr-4": {
             "tuyendd\\SayHello\\": "src/"
