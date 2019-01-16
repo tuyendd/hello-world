@@ -1,5 +1,6 @@
 {
     "name": "tuyendd/hello-world",
+	"license": "MIT",
 	"version": "1.0.0",
     "authors": [
         {
@@ -10,12 +11,6 @@
     "minimum-stability": "dev",
     "require": {
     },
-	"repositories": [
-        {
-          "type": "vcs",
-          "url":  "git@github.com:tuyendd/hello-world.git"
-        }
-      ],
     "autoload": {
         "psr-4": {
             "tuyendd\\SayHello\\": "src/"
